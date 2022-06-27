@@ -1,0 +1,143 @@
+html,
+body {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	overflow: hidden;
+}
+
+
+@font-face {
+    font-family: NeueBitBold;
+    src: url("NeueBit-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: IMBP;
+    src: url("IBMPlexSans-Bold.otf") format("opentype");
+}
+
+body {
+	color: whitesmoke;
+	background-color: black;
+}
+
+@media screen and (orientation: landscape) {
+	.title {
+		font-family: NeueBitBold;
+		font-weight: 400;
+		font-size: 11vw;
+		position: absolute;
+		top: 18vw;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		box-sizing: border-box;
+		cursor: default;
+	}
+
+	.info {
+		font-family: NeueBitBold;
+		font-weight: 400;
+		display: inline;
+		font-size: 2.55vw;
+		position: absolute;
+		top: 22.5vw;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		box-sizing: border-box;
+		cursor: default;
+		white-space: nowrap;
+	}
+
+	.email {
+		font-family: IMBP;
+		font-weight: 400;
+		display: inline;
+		font-size: 1.5vw;
+		line-height: 1vw;
+		position: absolute;
+		top: 32.5vw;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		box-sizing: border-box;
+		cursor: default;
+	}
+
+	.portfolio {
+		font-family: IMBP;
+		font-weight: 400;
+		display: inline;
+		font-size: 1.5vw;
+		line-height: 1vw;
+		position: absolute;
+		top: 35vw;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		box-sizing: border-box;
+		cursor: pointer;
+	}
+}
+
+@media screen and (orientation: portrait) {
+	.title {
+		font-family: NeueBitBold;
+		font-weight: 400;
+		font-size: 22vw;
+		position: absolute;
+		top: 70vw;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		box-sizing: border-box;
+		cursor: default;
+	}
+
+	.info {
+		font-family: NeueBitBold;
+		font-weight: 400;
+		display: inline;
+		font-size: 5.1vw;
+		position: absolute;
+		top: 80vw;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		box-sizing: border-box;
+		cursor: default;
+		white-space: nowrap;
+	}
+
+	.email {
+		font-family: IMBP;
+		font-weight: 400;
+		display: inline;
+		font-size: 3vw;
+		line-height: 1vw;
+		position: absolute;
+		top: 110vw;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		box-sizing: border-box;
+		cursor: default;
+	}
+
+	.portfolio {
+		font-family: IMBP;
+		font-weight: 400;
+		display: inline;
+		font-size: 3vw;
+		line-height: 1vw;
+		position: absolute;
+		top: 115vw;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		box-sizing: border-box;
+		cursor: pointer;
+	}
+}
